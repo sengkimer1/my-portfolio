@@ -1,0 +1,73 @@
+body{
+    font-family: 'Inria Serif', serif;
+}
+.container{
+    width: 1050px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    background-color:#FAE4E4;
+}
+.header{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+}
+.logo{
+    width: 200px;
+    text-align: center;
+    font-size: 25px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.menu{
+    margin-left: auto;
+    height: auto;
+    overflow: hidden;
+}
+.menu ul{
+    margin-left: auto;
+    padding: 0;
+    list-style-type: none; 
+    display: flex;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 23px;
+    font-size: 20px;
+    color: black;
+}
+.menu ul li .box{
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    
+}
+.title{
+    width: 60%;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10%;
+}
+.title h4{
+    font-size: 30px;
+}
+.photo{
+    width: 40%;
+}
+.photo img{
+    width: 80%;
+    height: 450px;
+    margin-top: 10%;
+    border-radius: 15%;
+}
+.things{
+    height: 200px;
+}

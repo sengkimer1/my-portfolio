@@ -1,0 +1,123 @@
+body{
+    font-family: 'Inria Serif', serif;
+}
+.container{
+    width: 1050px;
+    height: auto;
+    overflow: hidden;
+    background-color:#F6CACA;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+    display: flex;
+}
+.logo{
+    width: 200px;
+    text-align: center;
+    font-size: 25px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.menu{
+    margin-left: auto;
+    height: auto;
+    overflow: hidden;
+}
+.menu ul{
+    margin-left: auto;
+    padding: 0;
+    list-style-type: none; 
+    display: flex;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 23px;
+    font-size: 20px;
+    color: black;
+}
+.menu ul li .box{
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+}
+.box1{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    height: 1000px;
+    margin-top: 40px;
+}
+.left{
+    width: 40%;
+    height: 380px;
+}
+.photo{
+    width: 100%;
+    overflow: hidden;   
+}
+.photo img{
+    width: 75%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left: 18%;
+}
+.text{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+}
+.text h1{
+    text-align: center;
+    padding: 10px ;
+    background-color: #FAE4E4;
+    font-size: 26px;
+}
+.text ul{
+    font-size: 22px;
+}
+.rigth{
+    width: 60%;
+    overflow: hidden;
+    margin-top: 10%;
+}
+.title{
+    width: 90%;
+    height: 269px;
+    margin-left: 15%;
+}
+.title h1{
+    width: 80%;
+    text-align: center;
+    padding: 10px ;
+    background-color: #FAE4E4;
+    font-size: 26px;
+}
+.title ul{
+    list-style-type: none;
+    font-size: 24px;  
+}
+.title i{
+    margin-top: 15px;
+}
+.pass{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 15%;
+}
+.pass h1{
+    width: 50%;
+    text-align: center;
+    padding: 10px ;
+    background-color: #FAE4E4;
+    font-size: 26px;
+}
+.pass ul {
+    font-size: 22px;
+}
+
