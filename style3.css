@@ -1,12 +1,13 @@
 body{
     font-family: 'Inria Serif', serif;
+    background-color:#FAE4E4;
 }
 .container{
-    width: 1050px;
-    height: auto;
+    max-width: 1050px;
+    height:1000px;
     overflow: hidden;
-    background-color:#F6CACA;
     margin: auto;
+    background-color:#F6CACA;
 }
 .header{
     width: 100%;
@@ -17,12 +18,14 @@ body{
 .logo{
     width: 200px;
     text-align: center;
-    font-size: 25px;  
+    font-size: 15px;  
     display: flex;
     justify-content: center;
     align-items: center; 
+   
 }
 .menu{
+    width: 50%;
     margin-left: auto;
     height: auto;
     overflow: hidden;
@@ -51,17 +54,31 @@ body{
     display: flex;
 }
 .title1{
-    width: 50%; 
-    background-color: blue; 
-   
+    width: 48%;  
 }
 .title1 h1{
   margin-left: 23%;
 }
 .title1 ul{
     list-style-type: none;
-    font-size: 24px;  
+    font-size: 28px;  
 }
 .title1 i{
-    margin-top: 15px;
+    margin-top: 5%;
+}
+.title2{
+    width: 50%;
+}
+.title2 h1{
+    margin-left: 30%;
+}
+ .title2 p{
+  font-size: 28px;
+   margin-bottom: 8px;
+}
+.title2 a{
+    padding: 10px;
+    background-color: #C9E7F3;
+    align-items: center;
+   
 }

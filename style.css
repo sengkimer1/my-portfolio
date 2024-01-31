@@ -1,12 +1,14 @@
 body{
     font-family: 'Inria Serif', serif;
+    
+    background-color:#FAE4E4;
 }
 .container{
-    width: 1050px;
-    height: auto;
+    width: 1200px;
+    height: 1000px;
     overflow: hidden;
     margin: auto;
-    background-color:#FAE4E4;
+    
 }
 .header{
     width: 100%;
@@ -17,12 +19,13 @@ body{
 .logo{
     width: 200px;
     text-align: center;
-    font-size: 25px;  
+    font-size: 15px;  
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 .menu{
+    width: 50%;
     margin-left: auto;
     height: auto;
     overflow: hidden;
@@ -61,13 +64,24 @@ body{
 }
 .photo{
     width: 40%;
+    
 }
 .photo img{
     width: 80%;
     height: 450px;
     margin-top: 10%;
+    box-shadow: 10px 10px 5px lightpink;
     border-radius: 15%;
 }
-.things{
-    height: 200px;
-}
+.footer-contact ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3% ;
+  font-size: 19px;
+    margin-top: 18%;
+    color: rgb(99, 92, 92);
+  }
+  .footer-contact ul li{
+    display: flex;
+    gap: 10px;
+  }
