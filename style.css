@@ -1,6 +1,6 @@
 body{
     font-family: 'Inria Serif', serif;
-    
+    /* flex-wrap: wrap; */
     background-color:#FAE4E4;
 }
 .container{
@@ -16,14 +16,23 @@ body{
     overflow: hidden;
     display: flex;
 }
-.logo{
+.logo {
+    font-family: 'Luckiest Guy', cursive; 
     width: 200px;
     text-align: center;
-    font-size: 15px;  
+    font-size: 28px;
     display: flex;
     justify-content: center;
-    align-items: center; 
-}
+    align-items: center;
+  }
+  .logo h1{
+    color: #7bca21;
+  }
+  .logo h2{
+   
+    color:rgb(12, 190, 190);
+    margin-top: 6rem;
+  }
 .menu{
     width: 50%;
     margin-left: auto;
@@ -40,7 +49,7 @@ body{
     text-decoration: none;
     display: block;
     padding: 23px;
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 .menu ul li .box{
@@ -56,8 +65,9 @@ body{
 .title{
     width: 60%;
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
     margin-top: 10%;
+    line-height: 40px;
 }
 .title h4{
     font-size: 30px;
@@ -76,9 +86,9 @@ body{
 .footer-contact ul {
     display: flex;
     list-style-type: none;
-    gap: 3% ;
-  font-size: 19px;
-    margin-top: 18%;
+    gap: 4rem ;
+    font-size: 19px;
+    margin-top: 17rem;
     color: rgb(99, 92, 92);
   }
   .footer-contact ul li{

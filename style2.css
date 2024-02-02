@@ -1,12 +1,14 @@
 body{
     font-family: 'Inria Serif', serif;
     background-color:#F6CACA;
+    background-color:#FAE4E4;
+
 }
 .container{
     width: 1200px;
-    height: 2200px;
+    /* height: 2200px; */
     overflow: hidden;
-    
+   
     margin: auto;
 }
 .header{
@@ -16,12 +18,21 @@ body{
     display: flex;
 }
 .logo{
+    font-family: 'Luckiest Guy', cursive; 
     width: 200px;
     text-align: center;
-    font-size: 15px;  
+    font-size: 28px;  
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+.logo h1{
+    color: #7bca21;
+}
+.logo h2{
+   
+    color:rgb(12, 190, 190);
+    margin-top: 6rem;
 }
 .menu{
     width: 50%;
@@ -38,10 +49,9 @@ body{
 .menu ul li a{
     text-decoration: none;
     display: block;
-    padding: 30px;
-    font-size: 20px;
+    padding: 23px;
+    font-size: 25px;
     color: black;
-
 }
 .menu ul li .box{
     background-color: white;
@@ -52,104 +62,134 @@ body{
     width: 100%;
     display: flex;
     overflow: hidden;
-    height: 1000px;
     margin-top: 40px;
 }
 .left{
-    width: 35%;
-    height: 380px;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
 }
 .photo{
     width: 100%;
     overflow: hidden;   
 }
 .photo img{
-    width: 90%;
+    width: 60%;
     height: 420px;
     object-fit: cover;
     border-radius: 15px;
-    margin-left: 5%;
+    margin-left: 10rem;
     box-shadow: 10px 10px 10px rgb(248, 133, 200);
 }
 .text{
     width: 90%;
     overflow: hidden;
     margin: auto;
+    margin-top: 21px;
 }
 .text h1{
     text-align: center;
     padding: 10px ;
-    background-color: #FAE4E4;
+    background-color:#F6CACA;
     font-size: 26px;
 }
 .text ul{
     font-size: 22px;
 }
 .rigth{
-    width: 60%;
+    width: 50%;
     overflow: hidden;
-    margin-top: 10%;
+    margin-top: 10rem;
 }
 .title{
-    width: 90%;
+    width: 100%;
     height: 269px;
     margin-left: 15%;
 }
 .title h1{
-    width: 90%;
+    
     text-align: center;
     padding: 10px ;
-    background-color: #FAE4E4;
+    background-color:#F6CACA;
     font-size: 26px;
 }
 .title ul{
     list-style-type: none;
-    font-size: 24px;  
+    font-size: 24px; 
+   
 }
 .title i{
-    margin-top: 15px;
+    margin-top: 15px; 
+   
 }
 .pass{
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     margin-left: 15%;
 }
 .pass h1{
-    width: 90%;
+   
     text-align: center;
     padding: 10px ;
-    background-color: #FAE4E4;
+    background-color:#F6CACA;
     font-size: 26px;
 }
 .pass ul {
     font-size: 22px;
 }
+.pass p{
+    font-size: 23px;
+}
 .pic{
     width: 95%;
-    margin: auto;
-   
-   
+    margin: auto;  
+    margin-top:38px;  
 }
 .pic h1{
+    width: 95%;
     text-align: center;
     padding: 10px ;
-    background-color: #FAE4E4;
+    background-color:#F6CACA;
     font-size: 26px;
 }
 .pic h3{
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
 }
+.pic p{
+    font-size: 21px;
+}
 .project1{
-   width: 100%;
+   width: 97%;
   overflow: hidden;
    background-color: aliceblue;
    display: flex;
 }
 .project1 img{
     width: 100%;
-    height: 400px;
+    height: 250px;
    
 }
-
+ul.personal-info {
+    line-height: 35px;
+}
+.tool{
+   
+    width: 100%;
+    overflow: hidden;
+   margin-left: 10rem;
+}
+.tool p{
+    font-size: 25px;
+    margin-left: 5.5rem;
+  
+}
+.logo1{
+    width: 100%;
+  
+}
+.logo1 img{
+    width: 40%; 
+    height: 200px;
+}
 
